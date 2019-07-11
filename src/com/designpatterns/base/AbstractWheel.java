@@ -22,7 +22,7 @@ public abstract class AbstractWheel implements WheelInterface {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() +"at"+size+ "inches";
+        return getClass().getSimpleName() +" at "+size+ " inches ";
 
     }
 }
